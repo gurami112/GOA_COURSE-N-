@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.titleone{
+    color: rgba(179, 174, 174, 0.788);
+    position: relative;
+    left: 900px;
+    display: inline-block;
+}
+
+.titletwo{
+    color: rgb(32, 31, 31);
+    position: relative;
+    left: 550px;
+    display: inline-block;
+    top: 50px;
+}
+
+.titlethree{
+    color: rgb(126, 120, 120);
+    position: relative;
+    left: 160px;
+    display: inline-block;
+    top: 120px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.Supervisorone{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 770px;
+    border: 10px;
+    box-shadow: 0px 10px 10px rgb(231, 227, 227);
+}
+
+.Supervisortitle{
+    color: rgb(126, 120, 120);
+    
+    text-align: center;
+
+    position: relative;
+    
+    top: 10px;
+ 
+}
+
+
+.Supervisormain{
+    color: rgb(126, 120, 120);
+    
+    text-align: center;
+
+    position: relative;
+    
+    top: 40px;
+}
+
+.supervisionimg{
+    position: relative;
+    left: 500px;
+    top: 150px;
+}
+
+
+.teambuldone{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 70px;
+    border: 10px;
+    box-shadow: 0px 10px 10px rgb(231, 227, 227);
+}
+
+
+.teambuldtitle{
+    color: rgb(126, 120, 120);
+    
+    text-align: center;
+
+    position: relative;
+    
+    top: 10px;
+}
+
+
+.teambuldmain{
+    color: rgb(126, 120, 120);
+    
+    text-align: center;
+
+    position: relative;
+    
+    top: 40px;
+}
+
+.teambuldimg{
+    position: relative;
+    left: 500px;
+    top: 150px;
+}

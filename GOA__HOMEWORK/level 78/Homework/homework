@@ -1,0 +1,19 @@
+1. Merge Lists: Write a function to merge two lists into a single list without any duplicates. For example, merging [1, 2, 3] and [3, 4, 5] should result in [1, 2, 3, 4, 5].
+
+2. List Comprehension: Create a list comprehension that squares each element of a given list. For instance, if the input list is [1, 2, 3, 4, 5], the output should be [1, 4, 9, 16, 25].
+
+3. Filter Odd Numbers: Write a function that takes a list of integers as input and returns a new list containing only the odd numbers from the original list.
+
+4. Find Common Elements: Implement a function that takes two lists as input and returns a list containing the common elements between them
+
+5. List Manipulation: Write a function to remove the duplicates from a given list while preserving the original order of elements. For example, if the input list is [1, 2, 3, 2, 4, 1], the output should be [1, 2, 3, 4]
+
+6. Merge Dictionaries: Write a function to merge two dictionaries into a single dictionary. If there are overlapping keys, prioritize the values from the second dictionary. For example, merging {'a': 1, 'b': 2} and {'b': 3, 'c': 4} should result in {'a': 1, 'b': 3, 'c': 4}
+
+7. Dictionary Comprehension: Create a dictionary comprehension that squares each value of a given dictionary. For instance, if the input dictionary is {'a': 1, 'b': 2, 'c': 3}, the output should be {'a': 1, 'b': 4, 'c': 9}
+
+8. Dictionary Keys to List: Write a function that extracts all keys from a dictionary and returns them as a list. For example, if the input dictionary is {'a': 1, 'b': 2, 'c': 3}, the output should be ['a', 'b', 'c']
+
+9. Word Frequency Counter: Write a function that takes a string of text as input and returns a dictionary where keys are unique words in the text and values are the frequencies of those words
+
+10. Dictionary Filtering by Value: Create a function that takes a dictionary and a value as input and returns a new dictionary containing only the key-value pairs where the value matches the input value.

@@ -1,0 +1,198 @@
+   /* reset page */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+  /* style body */
+body{
+    background-color: #F3E5D8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+   /* style container  */
+  
+.container{
+    max-width: 520px;
+    height: 1000px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+  /* style image  */
+
+img{
+    max-width: 520px;
+    padding: 30px;
+    border-radius: 45px;
+}
+
+ /* style image-text */
+
+ .image-text{
+    max-width: 500px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+ }
+
+
+ .titel{
+    color: black;
+    position: relative;
+    left: 29px;
+    bottom: 20px;
+    display: inline-block;
+    font-size: 30px;
+ }
+
+ .text{
+    font-size: 11px;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+    color: black;
+    opacity: 0.9;
+    line-height: 1.9;
+    
+ }
+
+ /* style prepariton-time */
+
+ .prepair-container{
+    position: relative;
+    top: 30px;
+    max-width: 470px;
+    height: 170px;
+    background-color: #FFF7FC;
+    margin: 24px;
+    border-radius: 15px;
+ }
+
+ .prepairing-text{
+    color: #612A41;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    display: inline-block;
+ }
+ 
+
+ .prepairing-ul{
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    color: #000000ab;
+    
+ }
+
+
+ span{
+    color: #000000;
+    padding-left: 10px;
+ }
+
+  /* style ingredients */
+
+.ingredients-container{
+    position: relative;
+    top: 30px;
+    max-width: 470px;
+    height: 150px;
+    margin: 24px;
+}
+
+.ingredients-text{
+    color: #a53362;
+    font-size: 28px;
+    position: relative;
+    display: inline-block;
+}
+
+.ingredients-ul{
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    color: #000000ab;
+}
+
+.ingrediants-span{
+    color: #000000ab;
+    padding-left: 10px;
+}
+
+.onehr{
+  position: relative;
+  top: 50px;
+  left: 45px;
+  background-color: #ffffff;
+  max-width: 450px;
+}
+
+ /* instruction */
+
+ .instruction-container{
+    position: relative;
+    top: 35px;
+    max-width: 470px;
+    height: 200px;
+    margin: 25px;
+   
+ }
+
+ .instruction-text{
+    color: #a53362;
+    font-size: 28px;
+    position: relative;
+    display: inline-block;
+ }
+
+ .instruction-ul{
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #000000c9;
+ }
+
+ .instruction-span{
+    color: #000000;
+    padding-left: 10px;
+ }
+ 
+
+
+
+
+ @media only screen and ( max-width: 430px){
+
+    body{
+        display: inline;
+        
+    }
+
+    img{
+        width: 530px;
+    }
+
+    .onehr{
+        width: 420px;
+    }
+
+    .container{
+        width: 550px;
+        
+    }
+    
+ }

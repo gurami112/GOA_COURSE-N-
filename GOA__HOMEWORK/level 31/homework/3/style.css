@@ -1,0 +1,30 @@
+.main{
+    color: darkgreen;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+
+
+.body{
+    color: chartreuse;
+background-color: black;
+text-decoration: wavy;
+font-size: 45px;
+}
+
+ul{
+    color: green;
+}
+
+button{
+    border-radius: 30%;
+    color: chartreuse;
+    background-color: green;
+    font-size: 40px;
+    text-decoration: none;
+}

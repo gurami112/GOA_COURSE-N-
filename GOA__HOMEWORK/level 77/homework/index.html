@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Slider</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for social icons -->
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href=>Home</a></li>
+        <li><a href=>About</a></li>
+        <li><a href=>Services</a></li>
+        <li><a href=>Contact</a></li>
+    </ul>
+</nav>
+
+<section id="testimonial" class="testimonial">
+    <div class="heading-decoration">
+        <h2 class="white-heading">TESTIMONIAL</h2>
+        <img src="https://i.ibb.co/d7tSD1R/heading-line-white.png" alt="decorative line" class="decorative-line">
+    </div>
+    <div class="testimonial-container">
+        <div class="testimonial-slide active">
+            <img src="l.jpeg" alt="Client 1">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h3>Client 1</h3>
+        </div>
+        <div class="testimonial-slide">
+            <img src="06drake2-mediumSquareAt3X%20(1).jpg" alt="Client 2">
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h3>Client 2</h3>
+        </div>
+        <div class="testimonial-slide">
+            <img src="channels4_profile.jpg" alt="Client 3">
+            <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h3>Client 3</h3>
+        </div>
+
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <div class="testimonial-nav">
+        <span class="nav-dot active" onclick="currentSlide(1)"></span>
+        <span class="nav-dot" onclick="currentSlide(2)"></span>
+        <span class="nav-dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>Level 77 Homework.</p>
+        <p class="copyright">&copy; Made By Guram Vakhtangishvili All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

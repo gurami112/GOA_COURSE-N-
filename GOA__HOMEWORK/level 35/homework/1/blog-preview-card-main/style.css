@@ -1,0 +1,83 @@
+.attribution { 
+    font-size: 15px; 
+    border: 1px solid black;
+    background-color: hsl(0, 0%, 100%);
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 19px 19px 0 rgba(0, 0, 0, 500  );
+
+    
+}
+ a { 
+    color: hsl(228, 45%, 44%);
+ } 
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+  
+
+
+} 
+
+img{
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 350px;
+
+
+
+
+
+
+}
+
+
+.learning{
+    margin-bottom: 200px;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-weight: bolder;
+    display: inline;
+    font-size: 20px;
+    margin-right: 269px;
+    cursor: pointer;
+   border-radius: 5px;
+   padding: 3px;
+    
+    
+}
+
+.Publish{
+  color: hsl(0, 0%, 0%);
+  font-size: 13px;
+  margin-right: 230px;
+  padding: 5px;
+}
+
+
+.hc{
+    color: hsl(47, 88%, 63%);
+    font-size: 20px;
+    margin-right: 70px;
+
+}
+.main{
+    color: hsl(0, 0%, 50%);
+}
+
+.img1{
+    width: 30px;
+    margin-right: 320px;
+    
+}
+
+
+.avatar{
+    display: inline-block;
+  
+}

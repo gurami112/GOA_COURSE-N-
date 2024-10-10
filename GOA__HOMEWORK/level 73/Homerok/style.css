@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#parent-container {
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: green;
+}
+
+        
+#child {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    font-size: 5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

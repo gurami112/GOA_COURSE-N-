@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;700&display=swap');
+
+.tr{
+    font-family: "Noto Serif Georgian";
+}
+
+table{
+border-collapse: collapse;
+}
+
+
+
+
+.GOA{
+    
+    color: darkgreen;
+    background-color: black;
+    font-size: 360%;
+}
+

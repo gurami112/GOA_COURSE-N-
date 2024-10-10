@@ -1,0 +1,19 @@
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 400px;
+}
+
+.df{
+    background-color: brown;
+}
+
+.fd{
+    background-color: green;
+}
+
+
+th{
+    background-color: yellow;
+}

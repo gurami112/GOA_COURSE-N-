@@ -1,0 +1,112 @@
+.header{
+    color: darkgreen;
+    background-color: black;
+    font-size: 350%;
+
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+
+
+.main2{
+    color: rgb(14, 190, 14);
+    background-color: black;
+
+    font-size: 150%;
+
+}
+
+
+.main1{
+    color: darkgreen;
+    background-color: black;
+    font-size: 250%;
+
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+
+
+.main3{
+    color: rgb(14, 190, 14);;
+    background-color: black;
+    font-size: 150%;
+
+    text-align: center;
+    text-transform: capitalize;
+    
+
+
+}
+
+
+.footer{
+
+    color: darkgreen;
+    background-color: black;
+    font-size: 350%;
+
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+
+
+
+
+.GOA{
+    color: rgb(38, 204, 38);
+    background-color: black;
+    font-size: 350%;
+
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+    
+}
+
+
+
+.table{
+    width: 1900px;
+    height: 150px;
+    
+
+}
+
+
+
+li button{
+    background-color: yellowgreen;
+    border-radius: 40px;
+    border: none;
+    width: 150px;
+    height: 50px;
+
+}
+
+ul{
+    font-size: 50px;
+}
+
+
+
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: #00ff62;
+    border:20px solid #000000;
+    padding: 20px; 
+    margin: 50px;
+
+
+
+}

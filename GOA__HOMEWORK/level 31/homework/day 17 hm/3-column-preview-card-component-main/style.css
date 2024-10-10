@@ -1,0 +1,217 @@
+
+body{
+    background-color: #f2f2f2;
+    font-family: "Big Shoulders Display", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+
+
+.child1{
+    display: inline-block;
+    background-color: #e28525;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    
+}
+
+
+.child2{
+    display: flex;
+    background-color: #5725e2;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+  
+
+}
+
+
+
+.child3{
+    display: flex;
+    background-color: #00403f;
+    width: 300px;
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-end-end-radius: 10px;
+    position: relative;
+
+    display: inline-block;
+}
+
+
+.car1{
+    position: relative;
+    left: 50px;
+    top: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.car1:hover{
+    transform: rotate(720deg) scale(1.5);
+}
+
+
+.Sedans{
+    position: relative;
+    display: inline;
+    top: 120px;
+    right: 10px;
+    font-size: 50px;
+    color:white ;
+    text-transform: uppercase;
+}
+
+
+.divsed{
+    display: inline;
+    position: relative;
+    top: 250px;
+    right: 150px;
+}
+
+
+.seda{
+    transform: translatey(70px);
+    padding: 50px;
+    color: rgb(226, 213, 213);
+    display: inline-block;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.learns{
+    left: 60px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: #e28525 ;
+    width: 170px;
+    height: 50px;
+    border: 0 solid #e28525;
+    cursor: pointer;
+    transition: 1s;
+ 
+    
+    
+    
+}
+
+.learns:hover{
+   transform: scale(1.2);
+}
+
+  .car2{
+       
+    position: relative;
+    left: 50px;
+    top: 40px;
+    cursor: pointer;
+    transition: 1s;
+
+  }
+
+  .car2:hover{
+    transform: rotate(720deg) scale(1.5);
+  }
+
+
+
+.suv{
+    position: relative;
+    display: inline;
+    top: 120px;
+    right: 10px;
+    font-size: 50px;
+     color: white;
+    text-transform: uppercase;
+}
+
+.su{
+    transform: translatey(70px);
+    padding: 50px;
+    color: rgb(179, 172, 172);
+    display: inline-block;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.learnsc{
+    left: 60px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: #5725e2;;
+    width: 170px;
+    height: 50px;
+    border: 0 solid #5725e2;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.learnsc:hover{
+    transform: scale(1.2);
+}
+
+
+.luxury{
+    position: relative;
+    display: inline;
+    top: 120px;
+    right: 10px;
+    font-size: 50px;
+     color: white;
+    text-transform: uppercase;
+}
+
+.lux{
+    transform: translatey(70px);
+    padding: 50px;
+    color: rgb(179, 172, 172);
+    display: inline-block;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.learnx{
+    left: 60px;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    color: #00403f;
+    width: 170px;
+    height: 50px;
+    border: 0 solid #00403f;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.learnx:hover{
+    transform: scale(1.2);
+}
+
+.car3{
+    position: relative;
+    left: 50px;
+    top: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.car3:hover{
+    transform: rotate(720deg) scale(1.5);
+}

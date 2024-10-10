@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(168, 19, 236, 0.959);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    background-color: aquamarine;
+  }

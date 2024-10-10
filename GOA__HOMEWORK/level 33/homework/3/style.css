@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 400px;
+}
+
+th{
+    background-color: yellow;
+}
+
+td{
+    background-color: green;
+}
+
+th,td{
+    color: red;
+    border-color: orange;
+    border-width: 5px;
+}

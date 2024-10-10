@@ -1,0 +1,207 @@
+.welcome{
+    color: chartreuse;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body{
+     background-color: #69a6d1; 
+}
+
+
+.registre{
+    color: chartreuse;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+label{
+    color: chartreuse;
+    text-transform: capitalize;
+    margin-left: 350px;
+    align-items: center;
+}
+
+input{
+    color: darkgreen;
+    background-color: #C9EBEF;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 16px;
+    margin: 1px;
+    padding: 2px;
+}
+
+
+#lastname{
+    color: darkgreen;
+    text-transform: capitalize;
+    margin-left: 5px;
+    align-items: center;
+    width: 200px;
+    
+}
+
+
+
+.aboutyou{
+    color: chartreuse;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.abty{
+    border-radius: 10px;
+    border: 10px solid #94dfff ;
+    height: 300px;
+    
+}
+#aboutyou{
+    height: 299px;
+    width: 2090px;
+}
+
+
+#goa1{
+    margin-left: 0%;
+}
+
+h1{
+
+    color: chartreuse;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+
+}
+
+
+.container{
+    display: flex;
+    border: 20px solid #94dfff ;
+    width: 2070px;
+    height: 500px;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+    
+}
+
+.title{
+    border: 20px solid rgb(29, 206, 191);
+    height: 40px;
+    width: 80px;
+    margin: 40px;
+    padding: 40px;
+    background-color: bisque;
+        
+
+
+}
+
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: darkgreen;
+    font-size: 25PX;
+    align-items: center;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: chartreuse;
+    cursor: pointer;
+
+}
+.title:hover{
+    border: 20px solid #c8ff00 ;
+    margin: 40px;
+    padding: 40px;
+    background-color: rgb(17, 235, 115);
+    flex-wrap: wrap;
+    height: 50px;
+    cursor: pointer;
+}
+.f{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: darkgreen;
+    font-size: 35PX;
+    align-items: center;
+    cursor: pointer;
+}
+.f:hover{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: chartreuse;
+    cursor: pointer;
+
+}
+
+.containerf{
+    display: flex;
+    border: 20px solid #94dfff ;
+    width: 2070px;
+    height: 500px;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+    
+}
+
+.titlef{
+        
+    border: 20px solid rgb(29, 206, 191);
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    padding: 50px;
+    background-color: bisque;
+    cursor: pointer;
+
+
+}
+
+
+.titlef:hover{
+    border: 20px solid #c8ff00 ;
+    margin: 55px;
+    padding: 55px;
+    background-color: rgb(17, 235, 115);
+    flex-wrap: wrap;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 5px solid #58bb07b6;
+    border-radius: 5px;
+    background-color: rgb(37, 168, 129);
+    color: rgb(255, 238, 0);
+    cursor: pointer;
+
+    margin-left: 870px;
+    margin-top: 90px;
+
+    height: 100px;
+    width: 250px;
+    
+}
+ 
+
+
+

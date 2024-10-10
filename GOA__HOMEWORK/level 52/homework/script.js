@@ -1,0 +1,1 @@
+alert("do you want to allow notifications  yes or no")

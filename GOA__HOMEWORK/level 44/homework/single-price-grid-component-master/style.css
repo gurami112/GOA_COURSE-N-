@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F0F0F0;
+}
+
+
+.container{
+    height: 600px;
+    width: 900px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 12px 5px rgb(129, 122, 122);
+}
+
+
+.white{
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 900px;
+}
+
+.title{
+    padding: 40px;
+    letter-spacing: 4px;
+    color: #37ABA9;
+}
+
+.tit1{
+    color: #dbf73d;
+    font-size: 25px;
+    padding-left: 39px;
+    
+}
+
+.tit0{
+    color: hsl(205, 12%, 62%);
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.green{
+    background-color: #2BB3B1;
+    height: 350px;
+    width: 450px;
+}
+
+.gtitle1{
+    color: rgba(255, 255, 255, 0.459);
+    padding-left: 55px;
+    font-size: 25px;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    padding: 15px;
+}
+
+.gtitle{
+    padding: 30px;
+    color: white;
+
+    font-size: 29px;
+}
+
+.gtitle0{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 25px;
+    padding: 45px;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    width: 350px;
+    height: 50px;
+    background-color: #b3d301;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 241, 241);
+    font-size: 30px;
+    transition: 2s;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.ltitle{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.685);
+    padding: 60px;
+}
+
+.ltitle0{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.685);
+    position: relative;
+    bottom: 90px;
+    padding: 40px;
+}
+
+.lite_green{
+    background-color: #4ABEBD;
+    float: inline-end;
+    position: relative;
+    bottom: 350px;
+    height: 350px;
+    width: 450px;
+}
+
+@media only screen and (max-width: 800px) {
+    .white{
+        display: none;
+    }
+
+    .lite_green{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        float: none;
+        width: 600px;
+        height: 250px;
+    }
+
+    .ltitle{
+        font-size: 35px;
+        padding: 20px;
+    }
+
+    .ltitle0{
+        position: relative;
+        bottom: 50px;
+    }
+
+    .green{
+        width: 600px;
+        height: 250px;
+    }
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+
+
+}

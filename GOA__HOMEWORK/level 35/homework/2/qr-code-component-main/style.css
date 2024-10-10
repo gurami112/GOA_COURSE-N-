@@ -1,0 +1,33 @@
+
+body{
+    background-color: hsl(220, 15%, 55%) ;
+}
+
+.attribution{
+    background-color: azure;
+    height: 590px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 899px;
+    margin-top: 290px;
+    
+} 
+img{
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 210px;
+    display: inline-block;
+
+}
+
+
+
+.h1{
+    display: inline-block;
+   
+    
+    
+}

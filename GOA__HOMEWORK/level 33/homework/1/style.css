@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: chartreuse;
+    background-color: black;
+}
+
+
+
+.greenrow {
+    background-color: #99cc99; 
+  }
+  
+  .bluerow {
+    background-color: #99ccff; 
+  }
+  
+  .purpleow {
+    background-color: #cc99ff; 
+  }
+  
+  .yellowrow {
+    background-color: #ffff99; 
+  }
+  
+ th,
+ td {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    text-align: left;
+    height: 80px;
+    color: black;}

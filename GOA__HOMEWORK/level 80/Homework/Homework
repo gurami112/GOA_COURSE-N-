@@ -1,0 +1,13 @@
+Homework:
+
+1. Transforming Data: Given an array of objects representing people with their ages, use the map function to create a new array containing only the names of these people.
+
+2. Prime or not: Given an array of numbers, use the map function to create a new array where there would be two kind of values: True / False. Add True to new array, if number is prime, else add False when number is composite.
+
+3. Filtering Data: Given an array of objects representing students with their grades, use the filter function to create a new array containing only the students who passed the exam (i.e., whose grades are above a certain threshold).
+
+4. Finding Specific Values: Given an array of strings representing file names, use the filter function to create a new array containing only the file names that have a ".jpg" extension.
+
+5. Create a copy function of map.
+
+6. Create a copy function of filter.

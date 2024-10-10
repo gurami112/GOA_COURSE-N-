@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #EDF2F8;
+
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 13px;
+
+    height: 100vh; 
+
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.container{
+    max-width: 1450px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+
+    gap: 20px;
+
+
+
+    
+}
+
+
+.card{
+   background-color: rgb(0, 0, 0);
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+   border-radius: 15px;
+
+   padding: 30px 40px;
+
+}
+
+.card_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  
+ 
+}
+
+h3{
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+
+    margin-bottom: 5px;
+}
+
+p{
+    color: white;
+    opacity: 50%;
+}
+
+.card_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    margin-right: 15px;
+    
+}
+
+
+.card_lead{
+   color: rgb(253, 253, 253);
+   opacity: 1;
+   margin-bottom: 20px;
+   font-size: 20px;
+   line-height: 1.2;
+
+}
+
+.card_quete{
+    color: rgb(253, 253, 253);
+    opacity: 80%;
+    line-height: 1.5;
+    
+}
+
+.card--bg-purple{
+    background-color: hsl(263, 55%, 52%);
+    grid-column: 1/3;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: left 480px top 5px;
+}
+
+.card--bg-gray-blue{
+    background-color: hsl(217, 19%, 35%);
+    grid-column: 3/4;
+    
+
+}
+
+.card--bg-white{
+    background-color: whitesmoke;
+    grid-row: 2/3;
+    grid-column: 1/2;
+  
+}
+
+.card--bg-long{
+    background-color: whitesmoke;
+    grid-row: 1/3;
+    grid-column: 4/5;
+}
+
+.card--bg-black{
+    grid-row: 2/3;
+    grid-column: 2/4;
+
+}
+
+.card--bg-long .card_header,
+.card--bg-long h3,
+.card--bg-long p,
+.card--bg-long .card_lead,
+.card--bg-long .card_quete,
+.card--bg-white .card_header,
+.card--bg-white h3,
+.card--bg-white p,
+.card--bg-white .card_lead,
+.card--bg-white .card_quete{
+    color: black;
+}
