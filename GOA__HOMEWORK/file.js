@@ -1,16 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 
-// Function to create folders with conditional naming logic
+// Function to create folders
 function createFolderStructure(startLevel, endLevel) {
     for (let i = startLevel; i <= endLevel; i++) {
         let levelFolderName;
 
-        // Determine folder naming based on level
-        if (i >= 106 && i <= 108) {
-            levelFolderName = `Level ${i.toString().padStart(2, '0')} Algorithms and AI`;
+        // Naming logic
+        if (i === 108) {
+            levelFolderName = `Level ${i}`; // Level 108 without "Algorithms and AI"
+        } else if (i >= 106 && i <= 107) {
+            levelFolderName = `Level ${i.toString().padStart(2, '0')} Algorithms and AI`; // Levels 106 and 107 with "Algorithms and AI"
         } else {
-            levelFolderName = `Level ${i}`;
+            levelFolderName = `Level ${i}`; // Other levels
         }
 
         const levelFolderPath = path.join(__dirname, levelFolderName);
@@ -37,17 +39,20 @@ function deleteFolderStructure(startLevel, endLevel) {
     for (let i = startLevel; i <= endLevel; i++) {
         let levelFolderName;
 
-        // Determine folder naming based on level
-        if (i >= 106 && i <= 108) {
-            levelFolderName = `Level ${i.toString().padStart(2, '0')} Algorithms and AI`;
+        // Naming logic for deletion
+        if (i === 108) {
+            levelFolderName = `Level ${i}`; // Level 108 without "Algorithms and AI"
+        } else if (i >= 106 && i <= 107) {
+            levelFolderName = `Level ${i.toString().padStart(2, '0')} Algorithms and AI`; // Levels 106 and 107 with "Algorithms and AI"
         } else {
-            levelFolderName = `Level ${i}`;
+            levelFolderName = `Level ${i}`; // Other levels
         }
 
         const levelFolderPath = path.join(__dirname, levelFolderName);
 
-        // Delete the level folder if it exists
+        // Check if the directory exists
         if (fs.existsSync(levelFolderPath)) {
+            // Remove the directory and its contents
             fs.rmSync(levelFolderPath, { recursive: true, force: true });
             console.log(`Deleted folder: ${levelFolderName}`);
         } else {
@@ -56,16 +61,20 @@ function deleteFolderStructure(startLevel, endLevel) {
     }
 }
 
-// Example usage
-const startLevelCreate = 108; // Set the starting level for creation
-const endLevelCreate = 120; // Set the ending level for creation
+// Main function to choose action
+function main(action, startLevel, endLevel) {
+    if (action === 'create') {
+        createFolderStructure(startLevel, endLevel);
+    } else if (action === 'delete') {
+        deleteFolderStructure(startLevel, endLevel);
+    } else {
+        console.log('Invalid action. Use "create" or "delete".');
+    }
+}
 
-// Uncomment to create folders
-// createFolderStructure(startLevelCreate, endLevelCreate);
+// Customize your action and levels here
+const action = 'create'; // Change to 'delete' to remove folders
+const startLevel = 106; // Starting level for create or delete
+const endLevel = 120; // Ending level for create or delete
 
-// Example usage for deletion
-const startLevelDelete = 108; // Set the starting level for deletion
-const endLevelDelete = 120; // Set the ending level for deletion
-
-// Uncomment to delete folders
-deleteFolderStructure(startLevelDelete, endLevelDelete);
+main(action, startLevel, endLevel);
