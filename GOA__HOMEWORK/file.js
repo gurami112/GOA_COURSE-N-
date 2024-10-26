@@ -73,8 +73,8 @@ function main(action, startLevel, endLevel) {
 }
 
 // Customize your action and levels here
-const action = 'create'; // Change to 'delete' to remove folders
-const startLevel = 106; // Starting level for create or delete
+const action = 'delete'; // Change to 'delete' to remove folders
+const startLevel = 109; // Starting level for create or delete
 const endLevel = 120; // Ending level for create or delete
 
 main(action, startLevel, endLevel);
